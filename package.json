@@ -1,0 +1,24 @@
+{
+  "name": "fsd20201027",
+  "version": "1.0.0",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://pvsreejith@github.com/pvsreejith/fsd20201027.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pvsreejith/fsd20201027/issues"
+  },
+  "homepage": "https://github.com/pvsreejith/fsd20201027#readme",
+  "description": "",
+  "dependencies": {
+    "express": "^4.17.1",
+    "express-handlebars": "^5.2.0",
+    "handlebars": "^4.7.6"
+  }
+}
