@@ -13,11 +13,21 @@ app.engine('hbs',
 )
 app.set('view engine', 'hbs')
 
-app.get('/dice', 
+app.get('/', 
     (req, resp) => {
         resp.status(200)
         resp.type('text/html')
-        resp.render('dice',
+        resp.render('./index.html',
+            
+        )
+    }
+)
+
+app.get('/roll', 
+    (req, resp) => {
+        resp.status(200)
+        resp.type('text/html')
+        resp.render('roll',
             
         )
     }
